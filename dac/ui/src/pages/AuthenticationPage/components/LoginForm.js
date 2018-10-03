@@ -74,7 +74,7 @@ export class LoginForm extends Component {
       <div id='login-form' style={[styles.base]}>
         <LoginTitle
           style={{marginBottom: 10}}
-          subTitle={la('Welcome to Dremio, please log in.')}/>
+          subTitle={la('Welcome to DEP Data Service, please log in.')}/>
         <ViewStateWrapper
           style={{paddingTop: 45}}
           hideChildrenWhenFailed={false}
