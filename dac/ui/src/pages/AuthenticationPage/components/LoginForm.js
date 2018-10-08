@@ -125,7 +125,7 @@ export class LoginForm extends Component {
         </ViewStateWrapper>
         <div className='largerFontSize' style={{textAlign: 'right'}}>
           <Link to={{ ...location, state: { modal: 'AboutModal' }}}>
-            {la('About Dremio')}
+            {la('About DEP Data Service')}
           </Link>
         </div>
       </div>

@@ -87,7 +87,7 @@ export class SignupForm extends Component {
             />
             <div className='largerFontSize'>
               {<Link to={{ ...this.props.location, state: { modal: 'AboutModal' }}}>
-                {la('About Dremio')}
+                {la('About DEP Data Service')}
               </Link>}
             </div>
           </div>
